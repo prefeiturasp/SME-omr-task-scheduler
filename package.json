@@ -1,0 +1,21 @@
+{
+  "name": "omr-task-scheduler",
+  "version": "2.5.0",
+  "description": "MSTech OMR Task Scheduler",
+  "main": "src/App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.mstech.com.br:mstech-omr/task-scheduler.git"
+  },
+  "author": "Virgilio Neto <virgilio.neto@mstech.com.br>",
+  "license": "SEE LICENSE IN LICENCE.md",
+  "dependencies": {
+    "agenda": "^0.8.1",
+    "mongoose": "^4.6.1",
+    "winston": "^2.2.0",
+    "winston-mongodb": "^1.6.1"
+  }
+}
